@@ -1,6 +1,6 @@
 #!groovy
 
-ansiColor('xterm') {
+ansiColor('vga') {
   echo "TERM=${env.TERM}"
   // prints out TERM=xterm
 }
